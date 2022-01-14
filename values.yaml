@@ -114,7 +114,7 @@ service:
 ingress:
   enabled: true
   ssl:
-    enabled: true
+    enabled: false
     host: ifeneg.ru
     secret: tls
 grafana_ingress:
