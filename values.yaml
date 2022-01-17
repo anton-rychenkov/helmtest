@@ -112,9 +112,9 @@ service:
   port: 8888
 
 ingress:
-  enabled: false
+  enabled: true
   ssl:
-    enabled: false
+    enabled: true
     host: ifeneg.ru
     secret: tls
 grafana_ingress:
