@@ -22,7 +22,7 @@ example:
   containerImage: onlyoffice/docs-example:6.4.2.6
 
 docservice:
-  replicas: 2
+  replicas: 1
   readinessProbeEnabled: true
   readinessProbe:
     failureThreshold: 2
@@ -90,7 +90,7 @@ proxy:
     limits: {}
 
 converter:
-  replicas: 2
+  replicas: 1
   containerImage: onlyoffice/4testing-ds-converter:6.4.2-eu-r2
   resources:
     ##Example:
